@@ -1,0 +1,29 @@
+<ion-view view-title="Carte">   
+  <ion-content>
+    <openlayers ol-defaults="defaults" ol-center="center" >
+    </openlayers>
+  </ion-content>
+
+
+<ion-footer-bar  class="bar-stable">
+	<div class="button-bar">
+	    <button class="button  icon-left button-clear"
+	    ng-click="openCirculationModal()">
+	    	<i class="icon ion-document-text"></i>
+	    	<!--Conditions de circulation nationales-->
+	    </button>
+	    <button class="button  button-clear "
+	    ng-click="openCouleursModal()">
+	    	<i class="icon ion-arrow-up-c"></i>
+	    	<i class="icon ion-arrow-down-c"></i>
+	    	<!--Couleur du jour-->
+		 </button>
+		 <button class="button   icon-left button-clear "
+		 ng-click="openLegendesModal()">
+	    	<i class="icon ion-compose"></i>
+	    	<!--Légende-->
+		 </button>
+	</div>
+</ion-footer-bar>
+
+</ion-view>

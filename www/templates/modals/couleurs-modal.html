@@ -1,0 +1,26 @@
+<ion-modal-view ng-controller="CouleursCtrl">
+    <ion-header-bar class="bar-stable" align-title="center">
+        <button class="button button-clear icon-left ion-arrow-left-c"   ng-click="closeCouleursModal()">
+          <!--<i class="icon "></i> -->
+        </button>
+        <h1 class="title">Couleurs du jour</h1>
+        <button class="button button-clear icon-left" ng-click="openPopover($event)">
+          <i class="icon ion-information-circled"></i>
+        </button>
+    </ion-header-bar>
+    <ion-content>
+          <ion-list class="list-inset">
+              <ion-item ng-repeat ="region in regions">
+              	<div class="row" >
+          			     <div class="col col-67">{{region.nom}}</div>
+          			     <div class="col">
+                        <img ng-src ="{{getDepartColor(region.depart)}}"/>
+                     </div>
+          			     <div class="col">
+                        <img ng-src ="{{getRetourColor(region.retour)}}"/>
+                </div>
+              </ion-item>
+          </ion-list>
+		  </div>
+    </ion-content>
+</ion-modal-view>

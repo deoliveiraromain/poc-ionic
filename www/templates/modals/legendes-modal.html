@@ -1,0 +1,102 @@
+<ion-modal-view ng-controller="LegendesCtrl">
+    <ion-header-bar class="bar-stable">
+   			<button class="button button-clear icon-left"ng-click="closeLegendesModal()">
+   				<i class="icon ion-arrow-left-c"></i> 
+   			</button>
+     	<h1 class="title">Légende</h1>
+    </ion-header-bar>
+    <ion-content>
+    		<ion-list>
+				<ion-item class="item-divider">
+					Etat du trafic
+				</ion-item>
+				<ion-item class="item-toggle">
+					Afficher l'état du trafic.
+					<label class="toggle toggle-balanced">
+			   			<input type="checkbox" ng-model="trafficState">
+			   			<div class="track">
+			    			<div class="handle"></div>
+			   			</div>
+					</label>
+				</ion-item>
+	            <ion-item>
+	        	   <img src='img/leg0.png'/> Bloqué
+	            </ion-item>
+	            <ion-item>
+	        	   <img src='img/leg1.png'/> Saturé
+	            </ion-item>
+	            <ion-item>
+	        	   <img src='img/leg2.png'/> Dense
+	        	</ion-item>
+	        	<ion-item class="item-divider">
+					Evènements
+				</ion-item>
+				<ion-item class="item-toggle ">
+					Afficher les évènements.
+					<label class="toggle toggle-balanced">
+			   			<input type="checkbox" ng-model="eventState">
+			   			<div class="track">
+			    			<div class="handle"></div>
+			   			</div>
+					</label>
+				</ion-item>
+	            <ion-item>
+	        	   <img src='img/accident_min.png'/> Accidents
+	            </ion-item>
+	            <ion-item>
+	        	   <img src='img/bouchons_min.png'/> Bouchons
+	            </ion-item>
+	            <ion-item>
+	        	   <img src='img/travaux_min.png'/> Travaux
+	        	</ion-item>
+	            <ion-item>
+	        	   <img src='img/incident_min.png'/> Incidents
+	        	</ion-item>
+
+				<ion-item class="item-divider">
+					Particularités
+				</ion-item>
+		   		<ion-item class="item-toggle">
+					Afficher les particularités.
+					<label class="toggle toggle-balanced">
+			   			<input type="checkbox" ng-model="partState">
+			   			<div class="track">
+			    			<div class="handle"></div>
+			   			</div>
+					</label>
+				</ion-item>
+	            <ion-item>
+	        	   <img src='img/uniquement_jour.png'/> uniquement jour
+	            </ion-item>
+	            <ion-item>
+	        	   <img src='img/uniquement_nuit.png'/> uniquement nuit
+	            </ion-item>
+	                <ion-item>
+	        	   <img src='img/truck.png'/> poids-lourds
+	        	</ion-item>
+	            <ion-item>
+	        	   <img src='img/hors-we-jours-feries.png'/> hors WE et JF
+	        	</ion-item>
+	        	<ion-item>
+	        	   <img src='img/we-jours-feries.png'/> WE et JF
+	        	</ion-item>
+  
+  				<ion-item class="item-divider">
+					Infrastructure
+				</ion-item>
+				<ion-item class="item-toggle">
+					Afficher l'infrastructure.
+					<label class="toggle toggle-balanced">
+			   			<input type="checkbox" ng-model="infraState">
+			   			<div class="track">
+			    			<div class="handle"></div>
+			   			</div>
+					</label>
+				</ion-item>
+	            <ion-item>
+	        	   <img src='img/leg13.png'/> Col
+	            </ion-item>
+	        </ion-list>
+		
+    </ion-content>
+</ion-modal-view>

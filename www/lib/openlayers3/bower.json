@@ -1,0 +1,23 @@
+{
+  "name": "ol3-compiled",
+  "homepage": "https://github.com/tombatossals/ol3-compiled",
+  "authors": [
+    "David Rubert <david.rubert@gmail.com>"
+  ],
+  "description": "OpenLayers 3 compiled distribution files",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "ol3",
+    "javascript",
+    "openlayers"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
