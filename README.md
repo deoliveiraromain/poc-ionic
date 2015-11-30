@@ -7,9 +7,12 @@ Première architecture de l'application mise en place pour test des composants I
 
 Technos : Cordova / Ionic / Angular JS
 
-Pour installer Ionic avec npm :  $ npm install -g cordova ionic
+Pour installer Ionic avec npm (nodeJs requis) : 
+
+$ npm install -g cordova ionic
 
 Pour tester l'application : 
 
 $ ionic serve
+
 $ ionic run android
