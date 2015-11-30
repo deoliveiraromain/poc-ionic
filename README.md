@@ -5,7 +5,7 @@ L'étude porte sur un portage mobile prenant commme exemple Bison futé.
 
 Première architecture de l'application mise en place pour test des composants Ionic, et intégration map OpenLayers.
 
-Technos : Cordova / Ionic / Angular JS
+Technos : Cordova / Ionic / Angular JS / OpenLayers
 
 Pour installer Ionic avec npm (nodeJs requis) : 
 
