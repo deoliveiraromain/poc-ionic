@@ -72,10 +72,10 @@ controllers.controller('MainCtrl', function($scope, $ionicModal) {
                         }
                     },
                     interactions: {
-                      mouseWheelZoom: true
+                      mouseWheelZoom: false
                     },
                     controls: {
-                        zoom: true,
+                        zoom: false,
                         rotate: true,
                         attribution: false
                     }

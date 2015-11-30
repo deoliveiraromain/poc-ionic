@@ -27,3 +27,17 @@ img {
 .col-map{
 	padding: 0px;
 }
+
+
+#content-map,#view-map{
+	height:100%;
+	margin:0;
+}
+
+.angular-openlayers-map {
+    height: 100%;
+    width: 100%;
+}
+
+
+
